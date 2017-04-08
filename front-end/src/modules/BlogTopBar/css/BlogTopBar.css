@@ -1,0 +1,10 @@
+div.BlogTopBar {
+    border: 1px solid red;
+    background-color: #ffffff;
+    padding: 1em;
+    height: 30%;
+    /*margin: 1em;*/
+    /*position: fixed;*/
+
+    /*overflow: auto;*/
+}
