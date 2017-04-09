@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import img1 from '~/front-end/public/img/blog1.jpg'
-import img2 from '~/front-end/public/img/blog2.jpg'
-import img3 from '~/front-end/public/img/blog3.jpg'
+import img1 from '../../../../public/img/blog1.jpg'
+import img2 from '../../../../public/img/blog2.jpg'
+import img3 from '../../../../public/img/blog3.jpg'
 import './css/BlogTopBarGallery.css'
 
 const photoSource = [img1, img2, img3];
