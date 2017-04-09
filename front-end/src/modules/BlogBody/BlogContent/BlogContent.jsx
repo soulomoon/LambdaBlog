@@ -5,7 +5,7 @@ class BlogContent extends Component {
   render() {
     return (
       <div className="BlogContent">
-        <RouteRender routes={this.props.routes}/>
+        <RouteRender routes={this.props.routes} />
       </div>
     );
   }

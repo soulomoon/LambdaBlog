@@ -1,62 +1,53 @@
 .BlogBody {
-    /*padding: 1em;*/
-    height: 100%;
-    display: flex;
-    overflow: hidden;
-
-    border: 1px solid black;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  border: 1px solid black;
 }
+
+
 /*equal children height*/
-div.BlogBody > * {
+
+/*div.BlogBody>* {
   padding-bottom: 100%;
   margin-bottom: -100%;
-}
+}*/
 
-.BlogSideBar{
-  margin: 0;
-  padding: 0;
 
-  width: 25%;
-  height: 100%;
-
-  border: 1px solid red;
-}
 .BlogContent {
   margin: 0;
   padding: 0;
-
-  width: 75%;
+  width: 80%;
   height: 100%;
-
+  float: left;
   border: 1px solid red;
 }
 
-.BlogSideBar ul{
-    margin: 0;
-    padding: 0;
-    margin-top: 2em;
-    margin-bottom: 2em;
 
-    font-size: 1em;
-    list-style-type: none;
-    background-color: #ffffff;
-    width: 100%
-}
-.BlogSideBar ul li a {
-    font-family: Futura;
-    color: #000;
 
-    display: block;
-    text-decoration: none;
-    padding: 1em 2em;
+.SideBarContent {
+  /*position: fixed;*/
+  background-color: #ffffff;
+  /*padding: 6em;*/
+  width: 500px;
+  /*width: 100%;*/
+  height: 100%;
+  overflow: hidden;
 }
 
-.BlogSideBar ul li a.active {
-    background-color: #2c2c2c;
-    color: #d9d9d9;
+.WelcomeWords {
+  font-family: Impact;
+  text-align: center;
+  font-size: 1.4em;
+  height: 20%;
 }
 
-.BlogSideBar ul li a:hover:not(.active) {
-    background-color: #d9d9d9;
-    color: white;
+
+.CloseSign {
+  text-align: center;
+  padding-top:2em;
+  padding-bottom:2em;
+}
+.CloseSign span {
+  color: black
 }

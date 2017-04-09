@@ -1,0 +1,26 @@
+.BlogTopBarGallery {
+   height: 100%;
+   padding-top: 2%
+}
+.BlogTopBarGallery table{
+   display: flex;
+   height: 100%;
+   width: 100%;
+}
+.BlogTopBarGallery tr{
+   padding-right: 15%;
+   padding-left: 15%;
+   display: flex;
+   height: 100%;
+   width: 100%;
+}
+.BlogTopBarGallery td{
+   padding-right: 3%;
+   padding-left: 3%;
+   height: 100%;
+   width: 33.33333333333%;
+}
+.BlogTopBarGallery img{
+   height: 100%;
+   width: 100%;
+}
