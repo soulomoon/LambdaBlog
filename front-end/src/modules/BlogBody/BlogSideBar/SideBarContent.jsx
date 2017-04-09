@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Glyphicon } from 'react-bootstrap';
-import {NavItem, Nav} from 'react-bootstrap';
+import { NavItem, Nav } from 'react-bootstrap';
+import './css/SideBarContent.css';
+
 class SideBarContent extends Component {
   render() {
     return (
@@ -24,16 +26,16 @@ class CloseSign extends Component {
   render() {
     return (
       <div className="CloseSign">
-      <Nav>
-        <NavItem
+        <Nav>
+          <NavItem
             onClick={this.handleSideToggle}>
-            <span>  
+            <span>
               <Glyphicon glyph="chevron-left" />
-              Going Back
-            </span>  
+              {/* Going Back */}
+            </span>
         </NavItem>
         </Nav>
-      </div>  
+      </div>
     );
   }
 }

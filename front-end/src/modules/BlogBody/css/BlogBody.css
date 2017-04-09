@@ -14,40 +14,4 @@
 }*/
 
 
-.BlogContent {
-  margin: 0;
-  padding: 0;
-  width: 80%;
-  height: 100%;
-  float: left;
-  border: 1px solid red;
-}
 
-
-
-.SideBarContent {
-  /*position: fixed;*/
-  background-color: #ffffff;
-  /*padding: 6em;*/
-  width: 500px;
-  /*width: 100%;*/
-  height: 100%;
-  overflow: hidden;
-}
-
-.WelcomeWords {
-  font-family: Impact;
-  text-align: center;
-  font-size: 1.4em;
-  height: 20%;
-}
-
-
-.CloseSign {
-  text-align: center;
-  padding-top:2em;
-  padding-bottom:2em;
-}
-.CloseSign span {
-  color: black
-}

@@ -8,6 +8,10 @@ body,
   overflow: hidden;
 
 }
+
+#root {
+  /*position: absolute;*/
+}
 .app-container {
   /*position: fixed;*/
   height: 100%;
@@ -30,5 +34,5 @@ body,
     margin: 0;
     padding: 0;
     position: relative;
-    
+
 }

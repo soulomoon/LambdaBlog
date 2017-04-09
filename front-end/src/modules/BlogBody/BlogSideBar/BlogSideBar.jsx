@@ -19,7 +19,7 @@ class BlogSideBar extends Component {
     this.props.names.forEach((name) => {
       BlogSideBarItems.push(
         <li key={"BlogSideBarItem" + name}>
-          <NavLink to={name}>
+          <NavLink className="BlogSideBarItem" to={name}>
             {name.replace("/", "")}
           </NavLink>
         </li>
@@ -51,7 +51,7 @@ class SidebarExtButton extends Component {
   render() {
     return (
       <li key={"BlogSideBarItem" + name}>
-        <NavLink to="#" onClick={this.handleSideToggle}>
+        <NavLink className="SidebarExtButton" to="#" onClick={this.handleSideToggle}>
             <h4><Glyphicon alt="align-justify" glyph="align-justify" /></h4>
         </NavLink>
       </li>

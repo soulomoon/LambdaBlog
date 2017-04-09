@@ -30,7 +30,7 @@ class App extends Component {
         onSetOpen={this.onSetSidebarToggle}>
         <div className="app-container">
           <BlogBody sideToggle={this.onSetSidebarToggle} />
-        </div>>
+        </div>
       </Sidebar>
     );
   }
