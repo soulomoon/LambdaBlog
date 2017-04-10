@@ -1,7 +1,7 @@
 .BlogBody {
   height: 100%;
   display: flex;
-  overflow: scroll;
+  /*overflow: scroll;*/
   /*border: 1px solid black;*/
 }
 @media screen and (max-width: 750px) {
@@ -10,8 +10,14 @@
     }
 
     .BlogSideBar ul {
-      font-size: 0.8em;
+      font-size: 0.7em;
 
+    }
+
+    .SidebarExtButton h4{
+      -moz-transform: scale(0.75);
+      -webkit-transform: scale(0.75);
+      transform: scale(0.75);
     }
 
 }

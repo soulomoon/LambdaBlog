@@ -52,7 +52,7 @@ class SidebarExtButton extends Component {
     return (
       <li key={"BlogSideBarItem" + name}>
         <NavLink className="SidebarExtButton" to="#" onClick={this.handleSideToggle}>
-            <h4><Glyphicon alt="align-justify" glyph="align-justify" /></h4>
+            <Glyphicon alt="align-justify" glyph="align-justify" />
         </NavLink>
       </li>
     );
