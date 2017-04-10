@@ -8,6 +8,12 @@
     .ImgContainer img {
       visibility: hidden;
     }
+
+    .BlogSideBar ul {
+      font-size: 0.8em;
+
+    }
+
 }
 @media screen and (max-width: 1200px) {
 /*content###################*/
