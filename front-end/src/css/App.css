@@ -36,3 +36,10 @@ body,
     position: relative;
 
 }
+
+.center {
+    margin: 0 auto;
+    max-width: 1440px;
+    /*padding-left: 24px;
+    padding-right: 24px;*/
+}

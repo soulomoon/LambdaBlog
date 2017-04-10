@@ -1,6 +1,6 @@
 .BlogSideBar {
   width: 20%;
-  height: 100%;
+  /*height: 100%;*/
   /*border: 1px solid red;*/
   position: relative;
 }
@@ -24,7 +24,7 @@
 .BlogSideBar ul {
   margin: 0;
   padding: 0;
-  margin-bottom: 2em;
+  /*margin-bottom: 2em;*/
   font-size: 1em;
   list-style-type: none;
   background-color: #ffffff;

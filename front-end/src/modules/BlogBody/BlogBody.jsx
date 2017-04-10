@@ -40,7 +40,7 @@ class BlogBody extends Component {
     ));
     return (
       <Router>
-        <div className="BlogBody">
+        <div className="BlogBody center">
           <Route exact path="/" render={() => (
             <Redirect to="/ABOUT" />
           )} />

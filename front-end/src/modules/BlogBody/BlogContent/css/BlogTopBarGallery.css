@@ -34,13 +34,17 @@
    height: 100%;*/
 }
 .ImgContainer{
+   /*position: absolute;*/
+   right: 0;
+   left: 0;
    bottom: 0;
-   padding-right: 5%;
-   padding-left: 5%;
+   margin-right: 5%;
+   margin-left: 5%;
    height: 100%;
    width: 100%;
+   overflow: hidden;
+   
    /*display: inline;*/
-   /*vertical-align: bottom;*/
 
    /*height: 100%;
    width: 33.33333333333%;*/
@@ -49,10 +53,10 @@
 .ImgContainer img {
   position: absolute;
   bottom: 0;
-
+  
   overflow: hidden;
-  clear: both;
-  display: block;
+
+  /*clear: both;*/
   margin:auto;
   width: auto;
   height: auto;
