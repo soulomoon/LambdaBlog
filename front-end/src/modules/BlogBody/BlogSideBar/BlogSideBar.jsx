@@ -20,7 +20,7 @@ class BlogSideBar extends Component {
       BlogSideBarItems.push(
         <li key={"BlogSideBarItem" + name}>
           <NavLink className="BlogSideBarItem" to={name}>
-            {name.replace("/", "")}
+            <span>{name.replace("/", "")}</span>
           </NavLink>
         </li>
       )

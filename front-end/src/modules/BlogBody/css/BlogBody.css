@@ -6,18 +6,14 @@
 }
 @media screen and (max-width: 750px) {
     .ImgContainer img {
-      visibility: hidden;
+      display: none;
     }
-
-    .BlogSideBar ul {
-      font-size: 0.7em;
-
+    .BlogSideBar {
+      min-height: 30px;
+      max-height: 50px;
     }
-
-    .SidebarExtButton h4{
-      -moz-transform: scale(0.75);
-      -webkit-transform: scale(0.75);
-      transform: scale(0.75);
+    .BlogSideBar a {
+      height: 100%;
     }
     .BlogTopBarLogo {
       display: none;
