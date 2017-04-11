@@ -5,3 +5,6 @@ script:
   cd front-end;
   npm install;
   npm run build
+ignore:
+  - *.md
+  - *.gitignore
