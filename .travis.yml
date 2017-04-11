@@ -3,5 +3,6 @@ node_js:
   - "iojs"
   - "7"
 script:
+  cd front-end;
   npm install;
   npm run build
