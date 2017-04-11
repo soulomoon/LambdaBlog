@@ -18,6 +18,9 @@
     .BlogTopBarLogo {
       display: none;
     }
+    body { 
+      font-size: 1.3em; 
+    }
 }
 @media screen and (max-width: 1200px) {
 /*content###################*/
