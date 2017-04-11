@@ -3,5 +3,5 @@ node_js:
   - "iojs"
   - "7"
 script:
-  npm install
+  npm install;
   npm run build
