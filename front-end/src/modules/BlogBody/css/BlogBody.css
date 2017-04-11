@@ -19,7 +19,9 @@
       -webkit-transform: scale(0.75);
       transform: scale(0.75);
     }
-
+    .BlogTopBarLogo {
+      display: none;
+    }
 }
 @media screen and (max-width: 1200px) {
 /*content###################*/
