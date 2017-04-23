@@ -7,6 +7,12 @@
   /*border: 1px solid red;*/
 }
 
+.BlogContent > div{
+    height: 100%;
+}
+
 .BlogContentMain {
-  padding: 5%
+  /*padding: 5%;*/
+  height: 100%;
+  
 }

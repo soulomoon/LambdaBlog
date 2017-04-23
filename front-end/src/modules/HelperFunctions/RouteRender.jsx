@@ -2,7 +2,7 @@ import React from 'react';
 import {Route} from 'react-router-dom';
 
 const RouteRender = ({routes}) => (
-  <div>
+  <div className="RouteRender">
     {routes.map((route, i) => (<RouteWithSubRoutes key={i} {...route}/>))}
   </div>
 )

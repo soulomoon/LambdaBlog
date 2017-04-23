@@ -8,41 +8,45 @@
     .ImgContainer img {
       display: none;
     }
-    .BlogSideBar {
+    .BlogNavBar {
       min-height: 30px;
       max-height: 50px;
     }
-    .BlogSideBar a {
+    .BlogNavBar a {
       height: 100%;
     }
-    .BlogTopBarLogo {
+    .BlogArticalsTopBar{
       display: none;
     }
-    body { 
-      font-size: 1.3em; 
+    body {
+      font-size: 1.3em;
     }
 }
 @media screen and (max-width: 1200px) {
+/*Artical*/	
+    .ArticalsContent{
+      padding: 5% 0 0 25%
+    }	
 /*content###################*/
     .BlogBody {
       display: block;
     }
     .BlogContent {
         width: 100%;
-        height: 10%;
+        height: 90%;
     }
 
-    .BlogContentTopBar{
-      height: 100%;
+    .BlogArticalsTopBar{
+      height: 20%;
       /*border: 1px solid #333;*/
 
       width: 100%;
     }
 
-    .BlogTopBarGallery {
+    .ArticalsTopBarGallery {
         height: 80%;
     }
-    .BlogTopBarGalleryRow{
+    .BlogArticalGalleryRow{
       display: flex;
 
       position: absolute;
@@ -50,6 +54,9 @@
       padding-left: 25%;
     }
 
+    .BlogNavBarItems{
+      width: 75%;
+    }
     .ImgContainer{
       padding-right: 0%;
       padding-left: 0%;
@@ -63,22 +70,22 @@
 /*content###################*/
 
 /*sidbar####################*/
-    .BlogSideBar ul {
+    .BlogNavBar ul {
       display: flex;
     }
-    .BlogSideBar li {
+    .BlogNavBar li {
       width: 20%;
       height: 100%;
 
     }
-    .BlogSideBar a{
+    .BlogNavBar a{
       text-align: center;
       width: 100%;
       position: absolute;
       bottom: 0;
     }
 
-    .BlogSideBar {
+    .BlogNavBar {
       width: 100%;
       height: 10%;
       /*border: 1px solid red;*/
@@ -86,17 +93,17 @@
 
       position: relative;
     }
-    .BlogSideBarItems {
+    .BlogNavBarItems {
       position: relative;
       height: 100%;
       /*border: 1px solid yellow;*/
     }
-    .BlogTopBarLogoContainer {
+    .BlogNavBarLogo img{
       width: 100%;
       height: 100%;
     }
     /*sidebar log*/
-    .BlogTopBarLogo {
+    .BlogNavBarLogo {
       width: 25%;
       height: auto;
       overflow: visible;

@@ -1,25 +1,21 @@
-.BlogContentTopBar{
-   height: 35%;
+.BlogArticalsTopBar{
+   height: 30%;
    /*border: 1px solid #333;*/
 
    width: 100%;
    display: inline-block;
 }
 
-.BlogTopBarGallery {
+.ArticalsTopBarGallery {
    position: absolute;
    bottom: 0;
    height: 40%;
 
    width: 100%;
 }
-.BlogTopBarGallery:after {
-  /*padding-top: 56.25%;*/
-  /* 16:9 ratio */
-  display: block;
-}
 
-.BlogTopBarGalleryRow{
+
+.BlogArticalGalleryRow{
    display: flex;
 
    position: absolute;
@@ -78,4 +74,32 @@
   transform: scale(1.1);
   /*transform: rotate(360deg);*/
 
+}
+
+.ArticalsContent {
+  height: 70%;		
+  padding: 10px 20% 0 20%;
+}
+
+
+.ArticalItem {
+  height: 33.33333333%;	
+  border-top: 3px solid #d9d9d9;
+  margin-right: 5%;
+  margin-left: 5%;
+  overflow: hidden
+}
+
+
+.ArticalItem > * {
+  padding-left: 5%
+}
+
+.ArticalItem > h1 {
+  font-family: Impact;
+  font-size: 1.8em;
+}
+.ArticalItem > p {
+  font-family: Exotc;
+  font-size: 1.2em;
 }

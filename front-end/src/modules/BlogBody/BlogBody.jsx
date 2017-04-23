@@ -4,7 +4,7 @@ import Articals from './BlogContent/Articals'
 import Contact from './BlogContent/Contact'
 import Github from './BlogContent/Github'
 import BlogContent from './BlogContent/BlogContent'
-import BlogSideBar from './BlogSideBar/BlogSideBar'
+import BlogNavBar from './BlogNavBar/BlogNavBar'
 // import RouteRender from '../HelperFunctions/RouteRender'
 import './css/BlogBody.css'
 import {
@@ -42,9 +42,9 @@ class BlogBody extends Component {
       <Router>
         <div className="BlogBody center">
           <Route exact path="/" render={() => (
-            <Redirect to="/ABOUT" />
+            <Redirect to="/ARTICALS" />
           )} />
-          <BlogSideBar names={names} sideToggle={sideToggle} />
+          <BlogNavBar names={names} sideToggle={sideToggle} />
           <BlogContent routes={routes} />
         </div>
       </Router>

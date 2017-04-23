@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { Glyphicon } from 'react-bootstrap';
 import { NavItem, Nav } from 'react-bootstrap';
-import './css/SideBarContent.css';
+import './css/BlogSideBarContent.css';
 
-class SideBarContent extends Component {
+class BlogSideBarContent extends Component {
   render() {
     return (
-      <div className="SideBarContent">
+      <div className="BlogSideBarContent">
         <CloseSign sideToggle={this.props.sideToggle}/>
         <WelcomeWords />
         <div className="SideBarlogo"></div>
@@ -48,11 +48,11 @@ class WelcomeWords extends Component {
       <p key={word}>{word}</p>
     ));
     return (
-      <div className="WelcomeWords">
+      <p className="WelcomeWords">
         {WelcomeWords}
-      </div>
+      </p>
     );
   }
 }
 
-export default SideBarContent;
+export default BlogSideBarContent;

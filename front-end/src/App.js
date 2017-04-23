@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import BlogBody from './modules/BlogBody/BlogBody'
 // import BlogTopBar from './modules/BlogTopBar/BlogTopBar'
-// import SidebarExt from './modules/BlogBody/BlogSideBar/BlogSideBar.jsx'
+// import SidebarExt from './modules/BlogBody/BlogNavBar/BlogNavBar.jsx'
 import Sidebar from 'react-sidebar'
-import SidebarContent from './modules/BlogBody/BlogSideBar/SideBarContent.jsx'
+import BlogSideBarContent from './modules/BlogBody/BlogNavBar/BlogSideBarContent.jsx'
 // import logo from './img/logo.svg';
 import './css/App.css';
 
@@ -22,15 +22,13 @@ class App extends Component {
     }
   }
   render() {
-    var sidebarContent = <SidebarContent sideToggle={this.onSetSidebarToggle}/>;
+    var MyBlogSideBarContent = <BlogSideBarContent sideToggle={this.onSetSidebarToggle}/>;
     return (
       <Sidebar
-        sidebar={sidebarContent}
+        sidebar={MyBlogSideBarContent}
         open={this.state.sidebarOpen}
         onSetOpen={this.onSetSidebarToggle}>
-        <div className="app-container">
-          <BlogBody sideToggle={this.onSetSidebarToggle} />
-        </div>
+        <BlogBody sideToggle={this.onSetSidebarToggle} />
       </Sidebar>
     );
   }

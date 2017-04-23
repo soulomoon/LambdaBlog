@@ -1,40 +1,40 @@
 import React, { Component } from 'react';
-import BlogTopBarLogo from './BlogTopBarLogo'
+import BlogNavBarLogo from './BlogNavBarLogo'
 import {
   NavLink,
 } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.css';
 import { Glyphicon } from 'react-bootstrap';
-import './css/BlogSideBar.css';
+import './css/BlogNavBar.css';
 
-class BlogSideBar extends Component {
+class BlogNavBar extends Component {
   render() {
-    const BlogSideBarItems = []
+    const BlogNavBarItems = []
 
-    BlogSideBarItems.push(
+    BlogNavBarItems.push(
       <SidebarExtButton
         key="SidebarExtButton"
         sideToggle={this.props.sideToggle} />
     )
     this.props.names.forEach((name) => {
-      BlogSideBarItems.push(
-        <li key={"BlogSideBarItem" + name}>
-          <NavLink className="BlogSideBarItem" to={name}>
+      BlogNavBarItems.push(
+        <li key={"BlogNavBarItem" + name}>
+          <NavLink className="BlogNavBarItem" to={name}>
             <span>{name.replace("/", "")}</span>
           </NavLink>
         </li>
       )
     })
     return (
-      <div className="BlogSideBar">
-        <div className="BlogTopBarLogo">
-          <BlogTopBarLogo />
-        </div>
-        <div className="BlogSideBarItems">
+      <div className="BlogNavBar">
+        {/* <div className="BlogNavBarLogo"> */}
+        <BlogNavBarLogo />
+        {/* </div> */}
+        <nav className="BlogNavBarItems">
           <ul>
-            {BlogSideBarItems}
+            {BlogNavBarItems}
           </ul>
-        </div>
+        </nav>
       </div>
     );
   }
@@ -50,7 +50,7 @@ class SidebarExtButton extends Component {
   }
   render() {
     return (
-      <li key={"BlogSideBarItem" + name}>
+      <li key={"BlogNavBarItem" + name}>
         <NavLink className="SidebarExtButton" to="#" onClick={this.handleSideToggle}>
             <Glyphicon alt="align-justify" glyph="align-justify" />
         </NavLink>
@@ -60,6 +60,6 @@ class SidebarExtButton extends Component {
 }
 
 export {
-  BlogSideBar as default,
+  BlogNavBar as default,
   SidebarExtButton,
 };
