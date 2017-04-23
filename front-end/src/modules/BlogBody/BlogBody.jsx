@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import About from './BlogContent/About'
-import Articals from './BlogContent/Articals'
+import Articles from './BlogContent/Articles'
 import Contact from './BlogContent/Contact'
 import Github from './BlogContent/Github'
 import BlogContent from './BlogContent/BlogContent'
@@ -19,7 +19,7 @@ const routes = [
   },
   {
     path: '/ARTICLES',
-    component: Articals
+    component: Articles
   },
   {
     path: '/CONTACT',
@@ -35,7 +35,7 @@ class BlogBody extends Component {
   render() {
     const sideToggle = this.props.sideToggle;
     const names = [];
-    routes.forEach((route, i) => (
+    routes.forEach((route) => (
       names.push(route.path)
     ));
     return (

@@ -1,26 +1,26 @@
-.BlogArticalsTopBar{
-   height: 30%;
+.BlogArticlesTopBar{
+   height: 25%;
    /*border: 1px solid #333;*/
 
    width: 100%;
    display: inline-block;
 }
 
-.ArticalsTopBarGallery {
+.ArticlesTopBarGallery {
    position: absolute;
    bottom: 0;
-   height: 40%;
+   height: 50%;
 
    width: 100%;
 }
 
 
-.BlogArticalGalleryRow{
+.BlogArticleGalleryRow{
    display: flex;
 
    position: absolute;
    padding-right: 20%;
-   padding-left: 20%;
+   padding-left: 0%;
     top: 0;
     bottom: 0;
     right: 0;
@@ -76,13 +76,18 @@
 
 }
 
-.ArticalsContent {
-  height: 70%;		
-  padding: 10px 20% 0 20%;
+.ArticlesNav{
+ height: 100%;
+ width:100%
+}
+
+.ArticlesContent {
+  height: 75%;		
+  padding: 10px 20% 0 0%;
 }
 
 
-.ArticalItem {
+.ArticleItem {
   height: 33.33333333%;	
   border-top: 3px solid #d9d9d9;
   margin-right: 5%;
@@ -91,15 +96,23 @@
 }
 
 
-.ArticalItem > * {
+.ArticleItem > * {
   padding-left: 5%
 }
 
-.ArticalItem > h1 {
+.ArticleItem > h1 {
   font-family: Impact;
   font-size: 1.8em;
 }
-.ArticalItem > p {
+.ArticleItem > p {
   font-family: Exotc;
   font-size: 1.2em;
+}
+.Artical h1{
+  text-align: center;
+}
+
+.Artical {
+  height: 100%;
+  padding: 12.5% 15% 0 15%
 }
