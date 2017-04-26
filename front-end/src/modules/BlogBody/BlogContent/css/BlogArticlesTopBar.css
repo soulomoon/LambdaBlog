@@ -81,13 +81,18 @@
  width:100%
 }
 
-.ArticlesContent {
+.ArticalList {
   height: 75%;		
   padding: 10px 20% 0 0%;
 }
 
 
 .ArticleItem {
+	   white-space: pre-wrap;      /* CSS3 */
+   white-space: -moz-pre-wrap; /* Firefox */
+   white-space: -pre-wrap;     /* Opera <7 */
+   white-space: -o-pre-wrap;   /* Opera 7 */
+   word-wrap: break-word;      /* IE */
   height: 33.33333333%;	
   border-top: 3px solid #d9d9d9;
   margin-right: 5%;
@@ -95,12 +100,21 @@
   overflow: hidden
 }
 
+.ArticleItem > a {
+  display: table-row;
+	 display: table;
+}
+.ArticleItem > a > * {
+  display: table-row;
+}
+
+
 
 .ArticleItem > * {
   padding-left: 5%
 }
 
-.ArticleItem > h1 {
+.ArticleItem h1 {
   font-family: Impact;
   font-size: 1.8em;
 }
