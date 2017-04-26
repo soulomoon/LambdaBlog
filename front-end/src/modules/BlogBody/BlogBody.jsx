@@ -18,7 +18,7 @@ const routes = [
     component: About
   },
   {
-    path: '/ARTICLES',
+    path: '/ARTICLE',
     component: Articles
   },
   {
@@ -42,7 +42,7 @@ class BlogBody extends Component {
       <Router>
         <div className="BlogBody center">
           <Route exact path="/" render={() => (
-            <Redirect to="/ARTICALS" />
+            <Redirect to="/ARTICAL" />
           )} />
           <BlogNavBar names={names} sideToggle={sideToggle} />
           <BlogContent routes={routes} />
