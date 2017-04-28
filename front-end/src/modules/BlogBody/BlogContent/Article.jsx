@@ -11,13 +11,5 @@ class Artical extends Component {
 	}
 }
 
-function post(props) {
-	return (
-		<div className="Artical" key={this.props.post.path}>
-			<ReactMarkdown source={this.props.post.body}/>
-		</div>
-	) 
-}
-
 export default Artical;
 
