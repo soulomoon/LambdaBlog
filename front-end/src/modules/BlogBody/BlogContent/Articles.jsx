@@ -3,9 +3,8 @@ import BlogArticlesTopBar from './BlogArticlesTopBar'
 import Article from './Article.jsx'
 import ReactMarkdown from 'react-markdown'; 
 import {
-	Link,
+  Link,
   Route,
-  Redirect
 } from 'react-router-dom'
 
 const posts = 
