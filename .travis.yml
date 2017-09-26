@@ -6,11 +6,11 @@ script:
   npm install;
   npm run build;
   cd build
-deploy:
-  provider: pages
-  skip_cleanup: true
-  repo: soulomoon/soulomoon.github.io
-  target_branch: master
-  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
-  on:
-    branch: master
+#deploy:
+#  provider: pages
+#  skip_cleanup: true
+#  repo: soulomoon/soulomoon.github.io
+#  target_branch: master
+#  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+#  on:
+#    branch: master
