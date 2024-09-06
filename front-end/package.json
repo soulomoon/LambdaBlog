@@ -9,7 +9,7 @@
     "react": "^16.5.0",
     "react-bootstrap": "^0.30.8",
     "react-dom": "^16.0.1",
-    "react-markdown": "^2.5.0",
+    "react-markdown": "^4.0.8",
     "react-router-dom": "^4.1.1",
     "react-sidebar": "^2.3.0"
   },
